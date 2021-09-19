@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="swagger.css">
+    <title>Swagger</title>
+</head>
+<body>
+   <h1>Swagger and Form</h1>
+    <form action="#" method="GET">
+        <fieldset>
+            <h1>Tell us more</h1>
+            <ul>
+                <li>
+                    
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname"  placeholder="First Name" maxlength="20" required>
+               </li>
+               <li>
+                 <label for="name">Last Name</label>
+                 <input type="text" name="lastname" id="lastname" placeholder="Last Name" maxlength="20" required>
+               </li>
+  
+                <li>
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" placeholder="please enter your email" required>
+               </li>
+  
+                 <li class="message">
+                    <label for="message">Tell us about yourself</label>
+                    <textarea name="msg" id="msg" rows="10" cols="10"></textarea>
+               </li> 
+               <li class="range">
+               <label class="range-label" for="wanttoknowmore">Want to know more</label>
+                 <input class="range-input" type="range" name="wanttoknowmore" id="wanttoknowmore"  min="0" max="1">
+               </li>
+  
+                <li class="button">
+                  <button type="submit">Submit</button>
+  
+               </li>
+            </ul>
+        </form>
+         
+        </fieldset>
+
+    </form>
+</body>
+</html>

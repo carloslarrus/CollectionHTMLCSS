@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+table {
+    width: 80vw;
+    height: 80vh;
+    margin: 2% auto;
+}
+
+thead tr {
+    height: 100px;
+    
+}
+
+thead tr th {
+    background-color: rgba(0, 255, 0, .3);
+    width: 18%;
+}
+
+tbody {
+    width: 100%;
+}
+
+tbody th {
+    width: 15%;
+    height: 5%;
+    background-color: rgba(255, 0, 0, .3);
+}
+
+
+tfoot th {
+    height: 50px;
+    background-color: purple;
+}
+
+tfoot td {
+    background-color: purple;
+}
+
+
+/* thead {
+    height: 50px;
+}
+
+thead th {
+    width: 15%;
+    height: 100%;
+} 
+
+tbody th {
+    width: 10%;
+    height: 5%;
+}
+
+tbody {
+    width: 100%;
+} */
+
+ td {
+     text-align: center;
+     background-color: rgba(255, 255, 0, .5);
+ }

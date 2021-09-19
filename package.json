@@ -1,0 +1,23 @@
+{ "home" : "http://carloslarrus.github.io/CollectionHTMLCSS",
+  "name": "GitHub",
+  "version": "1.0.0",
+  "description": "This repository is a collection of exercises to show my skills using html and css.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+  "predeploy": "npm run build"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloslarrus/CollectionHTMLCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloslarrus/CollectionHTMLCSS/issues"
+  },
+  "homepage": "https://github.com/carloslarrus/CollectionHTMLCSS#readme"
+}

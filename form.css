@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgb(164, 164, 0), rgb(0, 115, 114));
+}
+
+.title {
+  width: 17vw;
+  margin: auto;
+  font-size: 4rem;
+}
+form {
+    margin: 5% auto;
+    width: 35%;
+    padding: 1rem;
+    border: 2px solid rgb(105, 104, 104);
+    border-radius: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+form li {
+    margin-top: 1rem;
+}
+
+label {
+    width: 7rem;
+    display: inline-block;
+}
+
+input  textarea {
+    font: 1rem sans-serif;
+    border: 3px solid #ccc;
+}
+
+/* Using :focus is a pseudo class and also using outline */
+
+
+input:focus, textarea:focus {
+    background: #9acd32;
+    outline: 3px solid #6495ed;
+}
+
+/* css attribute selector */
+
+input[type="email"]:disabled {
+    background-color: rgb(130, 130, 130);
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+textarea{
+    vertical-align: top;
+    height: 4rem; 
+}
+
+label::after {
+ content: "*";
+ color: red;
+}
+
+button {
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+ 
+ .news {
+     display: inline;
+ }
+
+
+
+
+
+
+  .artist > button {
+    background-color: #2196F3;
+    width: 80px;
+    height: 30px;
+  }

@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(255, 0, 106), rgb(139, 30, 139));
+    position: relative;
+}
+
+.card {
+    width: 90%;
+    height: 50%;
+    background-image: linear-gradient(to right, rgb(255, 0, 106), rgb(139, 30, 139));
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .1), 5px -5px 5px rgba(0, 0, 0, .1), -5px 5px 5px rgba(0, 0, 0, .1), -5px -5px 5px rgba(0, 0, 0, .1);
+}
+
+.card h1, .card p {
+    margin: 5%;
+}
+
+.card h1 {
+    font-size: 3em;
+    color: white;
+}
+
+.card p {
+    font-size: 1.5em;
+    color: white;
+}
+

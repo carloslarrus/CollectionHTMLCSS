@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: darkgray;
+}
+
+header {
+    color: white;
+    background-color: black;
+    width: 90vw;
+    height: 10vh;
+    margin: auto;
+}
+
+.container {
+    background-color: gray;
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.title {
+    width: 100%;
+    color: white;
+    height: 10%;
+}
+
+.title ul {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.title ul li {
+    display: inline-block;
+    width: 20%;
+    height: 25%;
+    justify-content: space-between;
+    margin-top: 75%;
+    margin: auto;
+}
+
+.aside {
+    background-color: white;
+    color: gray;
+    height: 90%;
+    width: 10%;
+}
+
+.aside ul {
+    list-style-type: none;
+    align-content: center;
+    width: 100%;
+    height: 30%;
+    margin-top: 20%;
+}
+
+.aside ul li {
+    height: 25%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.black-boxes {
+    
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 89%;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 10px;
+}
+
+.black-box {
+    color: white;
+    background-color: black;
+    width: 32%;
+    height: 100px;
+}
+
+.thumbnail {
+    height: 80%;
+    padding: 10px;
+}
+
+.movie {
+    background-color: darkgray;
+    height: 20%;
+}
